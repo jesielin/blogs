@@ -4,16 +4,16 @@
 
 # Site
 title: 2015
-subtitle: 这里的一切都不是真的。
-description:
+subtitle: 
+description: 这里的一切都不是真的。
 author: Shawn
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://jesielin.github.io/blog/
-root: /blog/
+url: https://jesielin.github.io/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -63,6 +63,14 @@ pagination_dir: page
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 theme: next
+
+# Next 主题相关配置 ==================================
+# Social links
+social:
+  github: https://github.com/jesielin
+  zhihu: http://www.zhihu.com/people/feng-shawn
+duoshuo_shortname: jesielin
+# EndNext 主题相关配置 ===============================
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
